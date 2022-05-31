@@ -1,0 +1,17 @@
+.row{
+    height:78.8vh;
+}
+.table{
+    border-collapse: collapse;
+    margin:1.5vw 14vw;
+    font-size: 1.2vw;
+    }
+    th,td{
+        border:1px solid black;
+        width:15vw;
+        height:3vw;
+    }
+    td{
+        padding-left: 3vw;;
+    
+    }

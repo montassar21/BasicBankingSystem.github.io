@@ -1,0 +1,130 @@
+ *{
+    padding:0;
+    margin:0;
+}
+nav{
+    height:9vh;
+    width:auto;
+    background-color: #b5838d;
+}
+nav img{
+    position: relative;
+    left:1.3vw;
+    width:9vh;
+    height:9vh;
+    padding-top: 0.2vw;
+
+}
+nav ul{
+    position: relative;
+    top:-7.8vh;
+    margin-left: 82vh;
+    margin-top:0.3vw;
+    margin-bottom:0.5vw;
+
+}
+nav ul li{
+    display: inline;
+    font-size: 3.4vh;
+    border:0.2vh solid white;
+    padding:1vh; 
+    margin-left: 0.2vw;;
+    border-radius: 0.3vw;;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;;
+}
+nav ul li:hover{
+    background-color: #ffb4a2;
+    transition: 1s;
+}
+.Main{
+    background-image: url("images/photo-1565514158740-064f34bd6cfd.avif");
+    background-size:cover;
+    height: 81.8vh;
+    width: auto;
+    background-repeat: no-repeat;
+}
+.par{
+    position: relative;
+    top:10vw;
+    padding-left: 50vw;
+    font-size: 2.5vw;;
+
+}
+.butt{
+    position: relative;
+    top:13vw;
+    left:50vw;
+    height:5vw;
+    width:10vw;
+    font-size: 1.2vw;
+    border-radius: 15px;
+    background-color: #b5838d;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.butt a{
+    text-decoration: none;
+    color:white;
+}
+footer{
+   
+    height:7vh;
+    width:auto;
+    background-color: #b5838d;
+    text-align: center; 
+    padding-top: 2.2vh;;
+    font-size: 1.5vw;;
+}
+@media  (max-width:850px) {
+    nav{
+        height:10vw;
+        background-color: #b5838d;
+    }   
+    .butt{
+        font-size: 2.2vw;
+
+    }
+    nav ul{
+        top:-7.5vw;
+        margin-left: 29vw;
+    }
+    nav ul li{
+        font-size: 4vw;
+        padding:1vw; 
+        margin-left: 0.4vw;;
+    }
+    nav img{
+        width:9vw;
+        height:9vw;
+        padding-top: 0.5vw;
+    
+    }
+    .Main{
+        background-size:cover;
+        height:87vh;;
+    }
+    .par{
+        top:20vw;
+        padding-left: 6vw;
+        font-size: 6.5vw;;
+    
+    }
+    .butt{
+        top:24vw;
+        left:25vw;
+        height:10vw;
+        width:20vw;
+        font-size: 3.2vw;    
+    }
+    footer{
+   
+        height:5vh;
+        padding-top: 2.5vw;;
+        font-size: 2.5vw;;
+    }
+}

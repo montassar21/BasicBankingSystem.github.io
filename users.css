@@ -1,0 +1,29 @@
+.table{
+border-collapse: collapse;
+margin:1.5vw 12vw;
+font-size: 1.2vw;;
+}
+th,td{
+    border:1px solid black;
+    width:15vw;
+    height:3vw;
+}
+td{
+    padding-left: 3vw;;
+
+}
+.bu{
+    background-color: #6d6875;
+    width:9vw;
+    height:2.5vw;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 7px;
+     border:none;
+     font-size: 1.2vw;;
+
+}
+.bu a{
+    text-decoration: none;
+    color: white;
+}
